@@ -1,4 +1,4 @@
-# 🩺 MediAI - Intelligent Validation and Medical Analysis Diagnosis System
+#  MediAI - Intelligent Validation and Medical Analysis Diagnosis System
 
 MediAI is a healthcare Machine Learning project that combines two predictive models:
 
@@ -6,9 +6,8 @@ MediAI is a healthcare Machine Learning project that combines two predictive mod
 - **Diabetes Diagnosis Model** → *(Diabetic or Non-Diabetic)*
 
 The Streamlit web application applies a secure business workflow:
-
-✅ If the analysis quality is **Erroneous**, diagnosis is blocked.  
-✅ If the analysis quality is **Valid**, diabetes diagnosis is launched.
+ If the analysis quality is **Erroneous**, diagnosis is blocked.  
+ If the analysis quality is **Valid**, diabetes diagnosis is launched.
 
 This project is based on:
 
@@ -17,7 +16,7 @@ This project is based on:
 
 ---
 
-# 📌 Objectives
+#  Objectives
 
 The project aims to:
 
@@ -28,7 +27,7 @@ The project aims to:
 
 ---
 
-# 🚀 Main Features
+#  Main Features
 
 ## Complete 2-Step Diagnosis Process
 
@@ -64,7 +63,7 @@ Uses medical parameters including:
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```bash
 MediAI/
@@ -98,7 +97,7 @@ MediAI/
 
 ---
 
-# ⚙️ Requirements
+# Requirements
 
 - Python 3.9+
 - pip
@@ -117,7 +116,7 @@ joblib
 
 ---
 
-# 🔧 Installation
+#  Installation
 
 Open a terminal inside the project folder and install dependencies:
 
@@ -127,7 +126,7 @@ pip install streamlit scikit-learn pandas numpy matplotlib seaborn joblib
 
 ---
 
-# ▶️ Running the Project
+# Running the Project
 
 ### Optional (recommended)
 
@@ -145,7 +144,7 @@ streamlit run app.py
 
 ---
 
-# 📦 Expected Artifacts
+#  Expected Artifacts
 
 The application automatically loads the following files from `model_artifacts/`:
 
@@ -172,7 +171,7 @@ qualite_labo.csv
 
 ---
 
-# 📊 Datasets Used
+# Datasets Used
 
 ## Diabetes Dataset
 
@@ -188,7 +187,7 @@ Semi-synthetic dataset based on biological quality rules inspired by laboratory 
 
 ---
 
-# 🧭 Application Navigation
+#  Application Navigation
 
 Available pages inside `app.py`:
 
@@ -200,7 +199,7 @@ Available pages inside `app.py`:
 
 ---
 
-# 🏗️ Decision Workflow
+#  Decision Workflow
 
 ```text
 Patient Input
@@ -225,7 +224,7 @@ Launch Diabetes Diagnostic Model
 
 ---
 
-# ⚠️ Limitations and Disclaimer
+#  Limitations and Disclaimer
 
 This project is intended for:
 
@@ -252,22 +251,9 @@ Future enhancements may include:
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
-**MediAI – Healthcare Machine Learning Project**
-
-Business logic and interface implementation:
-
-```python
-app.py
-```
-
-Machine Learning pipeline and training:
-
-```python
-projet_ml_v2.ipynb
-```
-
+by Bakhta, Mayssa et Nour
 ---
-Made with ❤️ by Bakhta, Mayssa et Nour
+Made with ❤️ 
  using Streamlit + Scikit-Learn
