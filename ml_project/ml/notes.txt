@@ -1,0 +1,9 @@
+#start the project:
+# Installer les dépendances
+pip install streamlit scikit-learn pandas numpy matplotlib seaborn joblib
+
+# run the notebook cell by cell:
+#ceci genere le dossier models-artifacts et qualite-labo.csv
+
+#  Lancer l'interface web
+streamlit run app.py
